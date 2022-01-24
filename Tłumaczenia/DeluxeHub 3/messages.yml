@@ -1,0 +1,79 @@
+# Tłumaczenia: https://www.pluginy.ml
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# PLUGIN MESSAGES
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+Messages:
+  GENERAL:
+    PREFIX: "&2&lPrefix &8&m = &7 "
+    NO_PERMISSION: "%prefix% &cNie mozesz tego uzywac."
+    CUSTOM_COMMAND_NO_PERMISSION: "&cNie masz uprawnien do tej komendy."
+    INVALID_PLAYER: "%prefix% &c%player% nie jest online!"
+    CONFIG_RELOAD: "%prefix% &3Przeladowano wszystko w &7%time%ms"
+    COOLDOWN_ACTIVE: "%prefix% &cPoczekaj &e%time%s &czanim zrobisz to znowu!"
+
+  GAMEMODE:
+    GAMEMODE_CHANGE: "%prefix% &7Zmieniles tryb na &a%gamemode%"
+    GAMEMODE_CHANGE_OTHER: "%prefix% &7Zmieniles tryb &a%gamemode% &7dla &e%player%"
+    GAMEMODE_INVALID: "%prefix% &e%gamemode% &cnie prawidlowy"
+
+  VANISH:
+    ENABLE: "%prefix% &aJestes teraz na vanishu"
+    DISABLE: "%prefix% &cWylaczyles vanisha"
+
+  FLIGHT:
+    ENABLE: "%prefix% &aWlaczyles latanie"
+    DISABLE: "%prefix% &cWylaczyles latanie"
+    ENABLE_OTHER: "%prefix% &cWlaczyles latanie dla &7%player%"
+    DISABLE_OTHER: "%prefix% &cWylaczyles latanie dla &7%player%"
+
+  PLAYER_HIDER:
+    HIDDEN: "%prefix% &cWidocznosc graczy wylaczona"
+    SHOWN: "%prefix% &aWidocznosc graczy wlaczona"
+
+  LOBBY:
+    SET_LOBBY: "%prefix% &aUstawiono spawn point lobby."
+
+  CHAT:
+    CLEARCHAT: "&b&l* &fChat zostal wyczyszczony przez &e%player% &b&l*"
+    CLEARCHAT_PLAYER: "&cTwoj chat zostal wyczyszczony przez Administratora."
+
+    LOCKED: "%prefix% &cChat jest aktualnie zablokowany."
+    LOCKED_BROADCAST: "%prefix% &e%player% &czablokowal czat globalny"
+    UNLOCKED_BROADCAST: "%prefix% &e%player% &aodblokowal czat globalny"
+
+    ANTI_SWEAR_WORD_BLOCKED: "%prefix% &cWiadomosc zostala usunieta."
+    ANTI_SWEAR_ADMIN_NOTIFY: "%prefix% &c%player% &7probowal napisac: &b%word%"
+
+    COMMAND_BLOCKED: "%prefix% &cTo polecenie zostalo ograniczone"
+
+  SCOREBOARD:
+    TOGGLE: "%prefix% &aMasz %value% scoreboard"
+
+  DOUBLE_JUMP:
+    COOLDOWN_ACTIVE: "%prefix% &cZaczekaj &e%time%s &caby uzyc podwojnego skoku znowu!"
+
+  WORLD_EVENT_MODIFICATIONS:
+    ITEM_DROP: "%prefix% &cNie mozesz wyrzucac itemow."
+    ITEM_PICKUP: "%prefix% &cNie mozesz podnosic itemow."
+    BLOCK_PLACE: "%prefix% &cNie mozesz budowac."
+    BLOCK_BREAK: "%prefix% &cNie mozesz niszczyc blokow."
+    BLOCK_INTERACT: "%prefix% &cNie mozesz tego tutaj robic."
+    PLAYER_PVP: "%prefix% &cPvp jest wylaczone."
+
+  HOLOGRAMS:
+    EMPTY: "%prefix% &cNie znaleziono."
+    ALREADY_EXISTS: "%prefix% &cJuz jest hologram z taka nazwa &7(%name%)&c."
+    INVALID_HOLOGRAM: "%prefix% &cThere is no hologram with this name &7(%name%)&c."
+    INVALID_LINE: "%prefix% &cCould not find hologram line."
+
+    SPAWNED: "%prefix% &7Stworzono nowy hologram &b%name%&7."
+    DESPAWNED: "%prefix% &7Usunieto hologram &b%name%&7."
+    MOVED: "%prefix% &7Przeniesiono hologram &b%name%&7."
+
+    LINE_SET: "%prefix% &7Ustawiono &b%line%&7."
+    ADDED_LINE: "%prefix% &7Dodano linijke."
+    REMOVED_LINE: "%prefix% &7Usunieto linijke &b%line%&7."
+
+  ANTI_WORLD_DOWNLOADER:
+    ADMIN_NOTIFY: "%prefix% &f%player% &chdolaczyl z world downloaderem."
