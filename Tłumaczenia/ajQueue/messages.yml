@@ -1,0 +1,106 @@
+# Tłumaczenia: https://www.pluginy.ml
+one:
+    two:
+        three: four
+status:
+    offline:
+        base: '&c{SERVER} jest aktualnie {STATUS}. &7Jestes &f{POS}&7 w kolejce z
+            &f{LEN}&7.'
+        offline: wylaczony
+        restarting: w trakcie restartu
+        full: pelen
+        restricted: wylaczony z uzytku
+        paused: zatrzymany
+        whitelisted: z whitelista
+    online:
+        base: '&7Jestes &f{POS}&7 w kolejce z &f{LEN}&7. Przewidywany czas oczekiwania:
+            {TIME}'
+    left-last-queue: '&aOpuszczono kolejke.'
+    now-in-queue: |-
+        &aJestes w kolejce do polaczenia na {SERVER}! &7Jestes &f{POS}&7 w kolejce z &f{LEN}&7.
+        &f<click:run_command:/leavequeue {SERVERNAME}>KLIKNIJ TUTAJ</click>&7 aby opuscic kolejke!
+    now-in-empty-queue: ''
+    sending-now: '&aLaczenie z &f{SERVER} &a..'
+errors:
+    server-not-exist: '&cSerwer {SERVER} nie istnieje!'
+    already-queued: '&cJestes juz w kolejce!'
+    player-only: '&cTa komenda, moze zostac uzyta jedynie przez gracza!'
+    already-connected: '&cJestes juz polaczony z tym serwerem!'
+    cant-join-paused: '&cNie mozesz dolaczyc do tej kolejki, poniewaz serwer jest
+        zatrzymany'
+    deny-joining-from-server: '&cNie mozesz dolaczyc do kolejki z tego serwera!'
+    wrong-version:
+        base: <red>Musisz byc na wersji {VERSIONS} aby dolaczyc na ten serwer!
+        or: ' lub '
+        comma: ', '
+commands:
+    leave-queue: '&aOpuszczono kolejke do {SERVER}!'
+    reload: '&aConfig and messages reloaded successfully!'
+    joinqueue:
+        usage: '&cUzyj: /joinq <serwer>'
+    kick:
+        usage: '<red>Uzyj: /ajqueue kick <gracz> [kolejka]'
+        no-player: '&cNie znaleziono gracza - {PLAYER}! Upewnij sie ze jest w kolejce!'
+        unknown-server: '&cNie znaleziono kolejki - {QUEUE}. Upewnij sie, ze napisales ja prawidlowo!'
+        success: <green>Wyrzucono <white>{PLAYER} <green>z {NUM} kolejki{s}!
+    leave:
+        more-args: '&cPodaj, ktora kolejke chcesz opuscic! &7Jestes w nastepujacych
+            kolejkach: {QUEUES}'
+        queues-list-format: '&f{NAME}&7, '
+        not-queued: '&cNie jestes w kolejce na ten serwer! &7Jestes w nastepujacych
+            kolejkach {QUEUES}'
+        no-queues: '&cNie jestes w kolejce!'
+    pause:
+        more-args: '&cUzyj: /ajqueue pause <serwer> [on/off]'
+        no-server: '&cTen serwer nie istnieje!'
+        success: '&aKolejka na &f{SERVER} &ajest aktualnie {PAUSED}'
+        paused:
+            'true': '&ezatrzymana'
+            'false': '&anie zatrzymana'
+    send:
+        player-not-found: '&cTen gracz nie zostal znaleziony! Upewnij sie, ze jest online'
+        usage: '<red>Uzyj: /ajqueue send <gracz> <serwer>'
+    listqueues:
+        header: '&9Kolejki:'
+        format: '<hover:show_text:''&7Status: {STATUS}''>{COLOR}{NAME}&7: {COUNT}
+            queued</hover>'
+noperm: '&cNie masz do tego permisji!'
+format:
+    time:
+        mins: '{m}m {s}s'
+        secs: '{s} sekund'
+list:
+    format: '&b{SERVER} &7({COUNT}): {LIST}'
+    playerlist: '&9{NAME}&7, '
+    total: '&7Gracze w kolejce: &f{TOTAL}'
+    none: '&7None'
+spigot:
+    actionbar:
+        online: '&7Jestes w kolejce na &f{SERVER}&7. Jestes &f{POS}&7 w kolejce z
+            &f{LEN}&7. Przewidywany czas: {TIME}'
+        offline: '&7Jestes w kolejce na &f{SERVER}&7. &7Jestes &f{POS}&7 w kolejce
+            z &f{LEN}&7.'
+send: '&aAdded &f{PLAYER}&a to the queue for &f{SERVER}'
+remove: '&aRemoved &f{PLAYER} from all queues they were in.'
+placeholders:
+    queued:
+        none: Brak
+    position:
+        none: Brak
+title:
+    title: ''
+    subtitle: <gold>Jestes <green>#{POS} <gold>w kolejce!
+max-tries-reached: '&cNie udalo sie polaczyc z {SERVER}. Osiagnieto limit prob.'
+auto-queued: '&aAutomatycznie dolaczono do kolejki {SERVER}, poniewaz zostales wyrzucony.'
+velocity-kick-message: '<red>Zostales wyrzucony podczas laczenia z {SERVER}: <white>{REASON}'
+updater:
+    update-available: |-
+        <gray><strikethrough>                                                         <reset>
+          <green>Aktualizacja ajQueue jest dostepna!
+          <dark_green>Mozesz ja pobrac poprzez <click:run_command:/ajqueue update><bold>klikniecie tutaj</bold>
+            lub wpisanie <gray>/ajQueue update</click>
+        <gray><strikethrough>                                                         <reset>
+    no-update: <red>Nie ma zadnych, nowych aktualizacji!
+    success: <green>Pobrano aktualizacje! Zrestartuj serwer!
+    fail: <red>Podczas pobierania aktualizacji, wystapil blad! Sprawdz konsole po wiecej informacji!
+    already-downloaded: <red>Aktualizacja zostala juz pobrana!

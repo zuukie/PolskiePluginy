@@ -1,0 +1,15 @@
+# Tłumaczenia: https://www.pluginy.ml
+
+messages:
+  prefix: "§8[§2§lPREFIX§8] §r"
+  msg-help: "§7Uzyj: §c/msg <gracz> <wiadomosc>"
+  trying-msg-itself: "§7Nie mozesz wyslac wiadomosci do samego siebie"
+  target-offline: "§7Podany gracz jest offline"
+  reply-help: "§7Uzyj: §c/reply <wiadomosc>"
+  nobody-to-reply: "§7Nie masz komu odpowiedziec."
+  staffchat-enabled: "§7AdminCzat §aWLACZONY"
+  staffchat-disabled: "§7AdminCzat §cWYLACZONY"
+
+  # Placeholders ({sender} & {receiver} & {message})
+  msg-format: "§7[§c{sender} §8§l>> §c{receiver}§7] §f{message}"
+  staffchat-format: "§c[YP] §7{sender} §8§l>> §7{message}"
