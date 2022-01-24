@@ -3,8 +3,8 @@ Polskie pluginy to zbiór polskich tłumaczeń pluginów do gry Minecraft. Tłum
 
 
 # Lista tłumaczeń
-- [AuthMe Reloaded](https://www.google.com)
-- [AdvancedBan](https://www.google.com)
+- [AuthMe Reloaded](https://github.com/zuukie/PolskiePluginy/tree/main/Tłumaczenia/AuthMe%20Reloaded)
+- [AdvancedBan](https://github.com/zuukie/PolskiePluginy/tree/main/Tłumaczenia/AdvancedBan)
 
 
 # Pomoc
