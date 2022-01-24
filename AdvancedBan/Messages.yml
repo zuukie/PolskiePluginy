@@ -1,0 +1,307 @@
+General:
+  Prefix: "&8&lPrefix &8&l»"
+  NoPerms: "&cNie posiadasz permisji!"
+  LayoutNotFound: "&cNie znaleziono layout o nazwie %NAME%"
+  # This will be the replacement for the %DURATION% variable
+  TimeLayoutD: "%D%dni %H%godz %M%min oraz %S%sek"
+  TimeLayoutH: "%H%godz %M%min oraz %S%sek"
+  TimeLayoutM: "%M%min oraz %S%sek"
+  TimeLayoutS: "%S% sek"
+  FailedFetch: "&cCould not fetch the UUID of %NAME%! See console for details."
+
+
+Ban:
+  Usage: "&cUzycie &8» &7&o/ban (-s) [Gracz] [Powod/@Layout]"
+  Done: "&c&o%NAME% &7zostal zbanowany!"
+  AlreadyDone: "&c&o%NAME% &7jest juz zbanowany!"
+  Exempt: "&7Nie mozesz zbanowac &c&o%NAME%"
+  Layout:
+  - '%PREFIX% &7Permanentnie zbanowany'
+  - '&7'
+  - '&7'
+  - "&cPowod &8» &7%REASON%"
+  - '&7'
+  - '&8Sadzisz, ze zostales zbanowany nieslusznie? Zglos sie na:'
+  - "&eDiscord &8» &c&nWkrótce!"
+  - "&eForum &8» &c&nWkrótce!"
+  Notification:
+  - "&c&o%NAME% &7zostal zbanowany przez &e&o%OPERATOR%"
+  - "&7za &o%REASON%"
+  UndoNotification: "&e&o%OPERATOR% &7odbanowal &c&o%NAME%"
+
+Ipban:
+  Usage: "&cUzycie &8» &7&o/banip (-s) [Gracz/IP] [Powod/@Layout]"
+  Layout:
+  - '%PREFIX% &7Permanentnie zbanowany'
+  - '&7'
+  - '&7'
+  - "&cPowód &8» &7%REASON%"
+  - '&7'
+  - '&8Sadzisz, ze zostales zbanowany nieslusznie? Zglos sie na:'
+  - "&eDiscord &8» &c&nWkrótce!"
+  - "&eForum &8» &c&nWkrótce!"
+  Notification:
+  - "&c&o%NAME% &7zostal zbanowany przez &e&o%OPERATOR%"
+  - "&7za &o%REASON%"
+  IpNotCashed: "&cNie ma zapisanego IP dla %NAME%!"
+
+Tempban:
+  Usage: "&cUzycie &8» &7&o/tempban (-s) [Gracz] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Powod/@Layout]"
+  MaxDuration: "&cNie mozesz banowac na wiecej niz %MAX%sek"
+  Layout:
+  - '%PREFIX% &7Tymczasowo zbanowany'
+  - '&7'
+  - '&7'
+  - "&cPowód &8» &7%REASON%"
+  - "&cWygasa za &8» &7%DURATION%"
+  - '&7'
+  - '&8Sadzisz, ze zostales zbanowany nieslusznie? Zglos sie na:'
+  - "&eDiscord &8» &c&nWkrótce!"
+  - "&eForum &8» &c&nWkrótce!"
+  Notification:
+  - "&c&o%NAME% &7zostal zbanowany przez &e&o%OPERATOR%"
+  - "&7za &o%REASON%"
+  - "&7&oTen gracz zostal zbanowany na e&o%DURATION%"
+
+Tempipban:
+  Usage: "&cUsage &8» &7&o/tempipban (-s) [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cNie mozesz banowac na wiecej niz %MAX%sek"
+  Layout:
+  - '%PREFIX% &7Tymczasowo zbanowany'
+  - '&7'
+  - '&7'
+  - "&cPowód &8» &7%REASON%"
+  - "&cWygasa za &8» &7%DURATION%"
+  - '&7'
+  - '&8Sadzisz, ze zostales zbanowany nieslusznie? Zglos sie na:'
+  - "&eDiscord &8» &c&nWkrótce!"
+  - "&eForum &8» &c&nWkrótce!"
+  Notification:
+  - "&c&o%NAME% &7zostal zbanowany przez &e&o%OPERATOR%"
+  - "&7za &o%REASON%"
+  - "&7&oTen gracz zostal zbanowany na e&o%DURATION%"
+
+Mute:
+  Usage: "&cUzycie &8» &7&o/mute (-s) [Name] [Reason/@Layout]"
+  Done: "&c&o%NAME% &7zostal wycziszony!"
+  AlreadyDone: "&c&o%NAME% &7jest juz wycziszony!"
+  Exempt: "&7Nie mozesz wyciszyc &c&o%NAME%"
+  Layout:
+  - '%PREFIX% &7Jestes permametnie wycziszony!'
+  - "&cPowód &8» &7%REASON%"
+  Notification:
+  - "&c&o%NAME% &7zostal wycziszony przez &e&o%OPERATOR%"
+  - "&7za &o%REASON%"
+  UndoNotification: "&e&o%OPERATOR% &7odcziszyl &c&o%NAME%"
+
+Tempmute:
+  Usage: "&cUsage &8» &7&o/tempmute (-s) [Name] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cNie mozesz wycziszyc na wiecej niz %MAX%sek"
+  Layout:
+  - '%PREFIX% &7Jestes wycziszony na: %DURATION%'
+  - "&cPowód &8» &7%REASON%"
+  Notification:
+  - "&c&o%NAME% &7zostal wycziszony przez &e&o%OPERATOR%"
+  - "&7za &o%REASON%"
+  - "&7&oTen gracz zostal wycziszony na e&o%DURATION%"
+
+Warn:
+  Usage: "&cUzycie &8» &7&o/warn (-s) [Name] [Reason/@Layout]"
+  Done: "&c&o%NAME% &7otrzymal ostrzezenie!"
+  Exempt: "&7Nie mozesz wyciszyc &c&o%NAME%"
+  Layout:
+  - '%PREFIX% &cOtrzymales ostrzezenie'
+  - "&cPowód &8» &7%REASON%"
+  - '&7Masz juz c&o%COUNT% &7ostrzezen razem!'
+  Notification:
+  - "&c&o%NAME% &7otrzymal ostrzezenie od &e&o%OPERATOR%"
+  - "&7za &o%REASON%"
+
+Note:
+  Usage: "&cUzycie &8» &7&o/note (-s) [Name] [Reason]"
+  Done: "&c&o%NAME% &7otrzymal notatke!"
+  Exempt: "&7Nie mozesz nadac notatki dla &c&o%NAME%"
+  Notification:
+  - "&c&o%NAME% &7otrzymal notatke od &e&o%OPERATOR%"
+  - "&7za &o%REASON%"
+
+Tempwarn:
+  Usage: "&cUzycie &8» &7&o/tempwarn (-s) [Name] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cNie mozesz ostrzec na wiecej niz %MAX%sek"
+  Layout:
+  - '%PREFIX% &cOtrzymales tymczasowe ostrzezenie'
+  - "&cPowód &8» &7%REASON%"
+  - "&cWygasa za &8» &7%DURATION%"
+  - '&7Masz juz &c&o%COUNT% &7ostrzezen razem!'
+  Notification:
+  - "&c&o%NAME% &7otrzymal tymczasowe ostrzezenie od &e&o%OPERATOR%"
+  - "&7za &o%REASON%"
+  - "&7Wygasa za: &o%DURATION%"
+
+Kick:
+  Usage: "&cUzycie &8» &7&o/kick (-s) [Gracz] [Powód/@Layout]"
+  Done: "&c&o%NAME% &7zostal wyrzucony z serwera!"
+  NotOnline: "&c&o%NAME% &7nie jest online!"
+  Exempt: "&7Nie mozesz wyrzucic &c&o%NAME%"
+  Layout:
+  - '%PREFIX% &7Zostales wyrzucony z serwera'
+  - '&7'
+  - "&cPowód &8» &7%REASON%"
+  - '&7'
+  Notification:
+  - "&c&o%NAME% &7zostal wyrzucony przez &e&o%OPERATOR%"
+  - "&7za &o%REASON%"
+
+
+UnBan:
+  Usage: "&cUzycie &8» &7&o/unban [Gracz/IP]"
+  NotPunished: "&c&o%NAME% nie jest zbanowany!"
+  Done: "&a&o%NAME% &7zostal odbanowany!"
+  Notification: "&e&o%OPERATOR% &7odbanowal &c&o%NAME%"
+
+UnMute:
+  Usage: "&cUzycie &8» &7&o/unmute [Gracz]"
+  NotPunished: "&c&o%NAME% nie jest wycziszony!"
+  Done: "&a&o%NAME% &7zostal odcziszony!"
+  Notification: "&e&o%OPERATOR% &7odcziszyl &c&o%NAME%"
+
+UnWarn:
+  Usage: "&cUzycie &8» &7&o/unwarn [ID] or /unwarn clear [Gracz]"
+  NotFound: "&cNie znaleziono ostrzezenia z ID #%ID%"
+  Done: "&7Ostrzezenie z ID &a&o#%ID% &7zostalo usuniete!"
+  Notification: "&e&o%OPERATOR% &7 usunal otrzezenie &c&o%NAME%"
+  Clear:
+    Empty: "&c&o%NAME% &7nie ma ostrzezen!"
+    Done: "&7Usunieto &a&o%COUNT% &7ostrzezen!"
+
+UnNote:
+  Usage: "&cUzycie &8» &7&o/unnote [ID] or /unnote clear [Gracz]"
+  NotFound: "&cNie znaleziono notatki dla #%ID%"
+  Done: "&7Notatka o ID &a&o#%ID% &7zostala usunieta!"
+  Notification: "&e&o%OPERATOR% &7usunal notatke od &c&o%NAME%"
+  Clear:
+    Empty: "&c&o%NAME% &7nie posiada notatek!"
+    Done: "&7Usunieto &a&o%COUNT% &7notatek"
+
+UnPunish:
+  Usage: "&cUzycie &8» &7&o/unpunish [ID]"
+  NotFound: "&cNie znaleziono kary o ID #%ID%"
+  Done: "&7Kara o ID &a&o#%ID% &7zostalo usuniete!"
+
+
+Banlist:
+  Usage: "&cUzycie &8» &7&o/banlist <Strona>"
+  OutOfIndex: "&cNie znaleziono strony %PAGE%!"
+  NoEntries: "&c&oNie znaleziono zadnych banów."
+  Header:
+  - "%PREFIX% &7Banlista:"
+  - "&c&oGracz/IP &8| &e&oWygasa za &8| &7&oAdministrator"
+  - "&c&oRodzaj &8> &7&oPowód"
+  - "&7"
+  Entry:
+  - "&8[&e%DATE%&8]"
+  - "&c%NAME% &8| &e%DURATION% &8| &7%OPERATOR%"
+  - "&c%TYPE% &8> &7&o%REASON%"
+  - "&7"
+  Footer: "&7Strona &e&o%CURRENT_PAGE% &7z &e&o%TOTAL_PAGES% &8| &7Bany: &e&o%COUNT%"
+  PageFooter: "&7Uzyj &e&o/banlist %NEXT_PAGE% &7aby zobaczyc kolejna strone!"
+
+History:
+  Usage: "&cUzycie &8» &7&o/history [Gracz/IP] <Strona>"
+  OutOfIndex: "&cNie znaleziono strony %PAGE%!"
+  NoEntries: "&c&oNie znaleziono histori dla %NAME% :("
+  Header:
+  - "%PREFIX% &7Historia dla %NAME%:"
+  - "&c&oName &8| &e&oWygasa za &8| &7&oAdministrator"
+  - "&c&oRodzaj &8> &7&oPowód"
+  - "&7"
+  Entry:
+  - "&8[&e%DATE%&8]"
+  - "&c%NAME% &8| &e%DURATION% &8| &7%OPERATOR%"
+  - "&c%TYPE% &8> &7&o%REASON%"
+  - "&7"
+  Footer: "&7Strona &e&o%CURRENT_PAGE% &7z &e&o%TOTAL_PAGES% &8| &7Kary: &e&o%COUNT%"
+  PageFooter: "&7Uzyj &e&o/history %NAME% %NEXT_PAGE% &7aby zobaczyc kolejna strone!"
+
+Warns:
+  Usage: "&cUzycie &8» &7&o/warns [Gracz] <Strona> &cor &7&o/warns <Strona>"
+  OutOfIndex: "&cNie znaleziono strony %PAGE%!"
+  NoEntries: "&c&o%NAME% nie ma zadnych otrzezen"
+  Header:
+  - "%PREFIX% &7Ostrzezenia dla %NAME%:"
+  - "&c&oName &8| &e&oWygasa za &8| &7&oAdministrator"
+  - "&c&o#ID &8> &7&oPowód"
+  - "&7"
+  Entry:
+  - "&8[&e%DATE%&8]"
+  - "&c%NAME% &8| &e%DURATION% &8| &7%OPERATOR%"
+  - "&c&l#%ID% &8> &7&o%REASON%"
+  - "&7"
+  Footer: "&7Strona &e&o%CURRENT_PAGE% &7z &e&o%TOTAL_PAGES% &8| &7Ostrzezenia: &e&o%COUNT%"
+  PageFooter: "&7Uzyj &e&o/warns %NAME% %NEXT_PAGE% &7aby zobaczyc kolejna strone!"
+
+WarnsOwn:
+  OutOfIndex: "&cNie znaleziono strony %PAGE%!"
+  NoEntries: "&c&o%NAME% nie ma zadnych otrzezen"
+  Header:
+    - "%PREFIX% &7Twoje ostrzenia:"
+    - "&e&oWygasa za &8| &7&oAdministrator"
+    - "&c&o#ID &8> &7&oPowód"
+    - "&7"
+  Entry:
+    - "&8[&e%DATE%&8]"
+    - "&e%DURATION% &8| &7%OPERATOR%"
+    - "&c&l#%ID% &8> &7&o%REASON%"
+    - "&7"
+  Footer: "&7Strona &e&o%CURRENT_PAGE% &7z &e&o%TOTAL_PAGES% &8| &7Ostrzezenia: &e&o%COUNT%"
+  PageFooter: "&7Uzyj &e&o/warns %NEXT_PAGE% &7aby zobaczyc kolejna strone!"
+  
+Notes:
+  Usage: "&cUsage &8» &7&o/notes [Name] <Page> &cor &7&o/notes <Page>"
+  OutOfIndex: "&cNie znaleziono strony %PAGE%!"
+  NoEntries: "&c&o%NAME% nie ma zadnych notatek"
+  Header:
+    - "&7"
+    - "%PREFIX% &7Notatki dla %NAME%:"
+    - "&7"
+  Entry:
+    - "&7%DATE% &8| &7przez &o%OPERATOR% &7(&c#%ID%&7)"
+    - "&8> &e%REASON%"
+    - "&7"
+  Footer: "&7Strona &e&o%CURRENT_PAGE% &7z &e&o%TOTAL_PAGES% &8| &7Ostrzezenia: &e&o%COUNT%"
+  PageFooter: "&7Uzyj &e&o/notes %NAME% %NEXT_PAGE% &7aby zobaczyc kolejna strone!"
+
+NotesOwn:
+  OutOfIndex: "&cNie znaleziono strony %PAGE%!"
+  NoEntries: "&c&o%NAME% nie ma zadnych notatek"
+  Header:
+    - "&7"
+    - "%PREFIX% &7Twoje notatki:"
+    - "&7"
+  Entry:
+    - "&7%DATE% &8| &7prez &o%OPERATOR% &7(&c#%ID%&7)"
+    - "&8> &e%REASON%"
+    - "&7"
+  Footer: "&7Strona &e&o%CURRENT_PAGE% &7z &e&o%TOTAL_PAGES% &8| &7Ostrzezenia: &e&o%COUNT%"
+  PageFooter: "&7Uzyj &e&o/notes %NEXT_PAGE% &7aby zobaczyc kolejna strone!"
+
+ChangeReason:
+  Usage: "&cUzycie &8» &7&o/change-reason [ID lub ban/mute Gracz] [Nowy powód]"
+  Done: "&7Kara dla &a&o#%ID% &7zostala zaktualizowana!"
+  NotFound: "&cPrzepraszamy nie znaleziono tej kary."
+
+Check:
+  Usage: "&cUzycie &8» &7&o/check [Gracz]"
+  Header: "&7Sprawdzanie &e&o%NAME% &8(%CACHED%&8)"
+  UUID: "&cUUID &8» &7%UUID% &8(%CACHED%&8)"
+  IP: "&cIP &8» &7%IP% &8(%CACHED%&8)"
+  Geo: "&cKraj &8» &7%LOCATION%"
+  Mute: "&cWycziszony &8» &7%DURATION%"
+  MuteReason: "  &cPowód &8» &7%REASON%"
+  Ban: "&cWygasa za &8» &7%DURATION%"
+  BanReason: "  &cPowód &8» &7%REASON%"
+  Warn: "&cOstrzezenia &8» &7%COUNT%"
+  Note: "&cNotatki &8» &7%COUNT%"
+  NotFound: "&cPrzeprszamy nie znaleziono %NAME%"
+  Cached: "&a&ocached"
+  NotCached: "&c&onot cached"
