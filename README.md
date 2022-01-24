@@ -1,16 +1,17 @@
 Zbiór polskich tłumaczeń pluginów do gry Minecraft dla silników Bukkit oraz Spigot.
 
-Parę wyjaśnień
-Tłumaczenia pojedynczych plików dla pluginów (zazwyczaj w formacie .yml) znajdują się w osobnych folderach w tym repozytorium. Tłumaczenia całych pluginów (z integracją w kod) znajdują się w osobnych repozytoriach, a ich listę można znaleść poniżej.
+# Wyjaśnienia
+Tłumaczenia pluginów znajdują się w tym repozytorium, w folderze z nazwą odpowiadającą nazwie pluginu.
 
-Lista tłumaczeń
-Population Density
-PlotSquared
-Twórcy
 
-Lista wszystkich twórców tłumaczeń znajduje się w zakładce contributors
+# Lista tłumaczeń
+- [AuthMe Reloaded](https://www.google.com)
+- [AdvancedBan](https://www.google.com)
 
+
+# Pomoc
 Jeśli chcesz pomóc w tworzeniu tłumaczeń napisz na adres: zuukieofficial@gmail.com
 
-Licencja
-Wszystkie tłumaczenia dostępne są na licencji GNU GLPv3, chyba że zaznaczono inaczej.
+
+# Licencja
+Wszystkie tłumaczenia dostępne są na licencji GNU GLPv3.
