@@ -7,9 +7,10 @@ Lista tłumaczeń
 Population Density
 PlotSquared
 Twórcy
+
 Lista wszystkich twórców tłumaczeń znajduje się w zakładce contributors
 
-Jeśli chcesz pomóc w tworzeniu tłumaczeń stwórz pull requesta lub napisz na adres: kontakt@taniochowo.pl - chętnie pomogę jeśli nie wiesz jak to zrobić.
+Jeśli chcesz pomóc w tworzeniu tłumaczeń napisz na adres: zuukieofficial@gmail.com
 
 Licencja
 Wszystkie tłumaczenia dostępne są na licencji GNU GLPv3, chyba że zaznaczono inaczej.
