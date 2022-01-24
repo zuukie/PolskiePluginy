@@ -1,7 +1,5 @@
-Zbiór polskich tłumaczeń pluginów do gry Minecraft dla silników Bukkit oraz Spigot.
-
 # Wyjaśnienia
-Tłumaczenia pluginów znajdują się w tym repozytorium, w folderze z nazwą odpowiadającą nazwie pluginu.
+Polskie pluginy to zbiór polskich tłumaczeń pluginów do gry Minecraft. Tłumaczenia pluginów znajdują się w tym repozytorium, w folderze z nazwą odpowiadającą nazwie pluginu.
 
 
 # Lista tłumaczeń
