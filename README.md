@@ -7,9 +7,10 @@ Polskie pluginy to zbiór polskich tłumaczeń pluginów do gry Minecraft. Tłum
 - [AdvancedBan](https://github.com/zuukie/PolskiePluginy/tree/main/Tłumaczenia/AdvancedBan)
 - [TNTRun_reloaded](https://github.com/zuukie/PolskiePluginy/tree/main/Tłumaczenia/TNTRun_reloaded)
 - [ProtectionStones](https://github.com/zuukie/PolskiePluginy/tree/main/Tłumaczenia/ProtectionStones)
+- [DeluxeHub 3](https://github.com/zuukie/PolskiePluginy/tree/main/T%C5%82umaczenia/DeluxeHub)
 
 # Pomoc
-Jeśli chcesz pomóc w tworzeniu tłumaczeń napisz na adres: zuukieofficial@gmail.com
+Jeśli chcesz pomóc w tworzeniu tłumaczeń napisz do mnie na: zuukieofficial@gmail.com
 
 
 # Licencja
